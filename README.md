@@ -1,25 +1,6 @@
-# Chess AI with Monte Carlo Tree Search and Neural Networks
+# Python Implementation of AlphaZero
 
-This project implements a Chess AI using Monte Carlo Tree Search (MCTS) and Deep Neural Networks. The AI learns to play chess through self-play and improves over time by training on the generated game data.
-
-## Table of Contents
-
-- [Chess AI with Monte Carlo Tree Search and Neural Networks](#chess-ai-with-monte-carlo-tree-search-and-neural-networks)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Project Structure](#project-structure)
-  - [Installation](#installation)
-    - [Prerequisites](#prerequisites)
-    - [Clone the Repository](#clone-the-repository)
-    - [Install Dependencies](#install-dependencies)
-  - [Usage](#usage)
-    - [Training the Neural Network](#training-the-neural-network)
-    - [Running MCTS Self-Play](#running-mcts-self-play)
-    - [Evaluating the AI](#evaluating-the-ai)
-    - [Running the Full Pipeline](#running-the-full-pipeline)
-    - [Visualizing a Game](#visualizing-a-game)
-    - [Analyzing Games](#analyzing-games)
-  - [Modules Description](#modules-description)
+Python implementation of Alpha Zero paper https://www.nature.com/articles/nature24270
 
 ## Features
 
@@ -70,8 +51,8 @@ This project implements a Chess AI using Monte Carlo Tree Search (MCTS) and Deep
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/chess-ai.git
-cd chess-ai
+git clone https://github.com/zeinalii/alphazero-implementation.git
+cd alphazero-implementation
 ```
 
 ### Install Dependencies
